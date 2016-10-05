@@ -5,7 +5,7 @@ A simple fully customizable floating action button with options
 
 # Setup
 - Copy the "MIFab" folder to your project.
-- Create a new instance with a couple a lines of code
+- Create a new instance with a couple of lines of code
 ```
   var fabConfig = MIFab.Config()
         
@@ -46,6 +46,11 @@ A simple fully customizable floating action button with options
       )
     ]
 )
+```
+- You can show or hide the fab with the methods
+```
+showButton(animated: Bool = false)
+hideButton(animated: Bool = false)
 ```
 
 - You can customize the UI by changing the config properties
