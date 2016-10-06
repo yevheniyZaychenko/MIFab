@@ -3,8 +3,8 @@
 
 use_frameworks!
 
-target 'MIFabDemo' do
+target 'MIAlertControllerDemo' do
 
-    pod 'MIFab', '~> 1.0'
+    pod 'MIAlertController', '~> 1.1'
 
 end

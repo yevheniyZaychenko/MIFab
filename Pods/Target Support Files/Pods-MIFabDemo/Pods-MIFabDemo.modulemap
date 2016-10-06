@@ -1,6 +1,0 @@
-framework module Pods_MIFabDemo {
-  umbrella header "Pods-MIFabDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
