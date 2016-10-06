@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MIFab
 
 class ViewController: UIViewController {
     

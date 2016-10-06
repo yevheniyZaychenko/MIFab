@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1B55E8B04B6AEDB447CBB14BB8A5E8 /* MIFabOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8256CC7BC270B3EDFCA585B66B962A0 /* MIFabOptionsVC.swift */; };
+		5109EAD132B6B024825B506E954B93E5 /* MIFabButton.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9134205373E5157F352E83042EC5326B /* MIFabButton.xib */; };
+		57EF45B01BDC91DC2AE629DDE7D64BD6 /* MIFab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0F50607D67229825CA9F2BC6A84369 /* MIFab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7864528B8B5FB5C653C2D8434296FF69 /* Pods-MIFabDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB24A7CA41CEC3ECECA587E120BB82E /* Pods-MIFabDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888ABA8480505065F6F559568DE54E4D /* MIFabOptionsVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = B2CFC490808B3985098A0FB4C9989F76 /* MIFabOptionsVC.xib */; };
+		8D77CCB65D8BF60A37FC580A99B5DFC7 /* MIFab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6A4C80FF1C4697A6DE2DF2E5F0922 /* MIFab-dummy.m */; };
+		C10C8CBB34CCF5D0C616D29CA91EF4EB /* MIFab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827AADB8C9845B78AB25A60C28421AE /* MIFab.swift */; };
+		DA672C6E8F8DE7BFF6918BE7B8FE7E3B /* MIFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D429713F416CFB4134162E9FA38D657 /* MIFabButton.swift */; };
+		ECC539FC70C393DB54380D44DE4681FA /* MIFabOptionCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 652C61274734A72512658043FB10B5F4 /* MIFabOptionCell.xib */; };
+		EE08022761F8153F4D01A60B020CDFB1 /* Pods-MIFabDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A62C07ED1E320FF8D44A14A9B19B02 /* Pods-MIFabDemo-dummy.m */; };
+		EFCEDC2974C801D924839D083263AF6D /* MIFabOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0338579E11D5DE405D41FF34969DE1 /* MIFabOptionCell.swift */; };
+		F53E9F0064BADC39BF534342B4BA831C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F74798136C84B538D9D924434EA17FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BFD70D1F40261FA7CC2BA811A180847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97D6068095C44FAE8EE7D3219A0F1FD;
+			remoteInfo = MIFab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		253CB2893BA2EF71E361F478639B45F8 /* MIFab.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MIFab.modulemap; sourceTree = "<group>"; };
+		26A62C07ED1E320FF8D44A14A9B19B02 /* Pods-MIFabDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MIFabDemo-dummy.m"; sourceTree = "<group>"; };
+		43913CBE4E06245DE1B3AC701AE216A5 /* MIFab.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MIFab.xcconfig; sourceTree = "<group>"; };
+		5D429713F416CFB4134162E9FA38D657 /* MIFabButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIFabButton.swift; path = MIFab/Button/MIFabButton.swift; sourceTree = "<group>"; };
+		5DF6A4C80FF1C4697A6DE2DF2E5F0922 /* MIFab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MIFab-dummy.m"; sourceTree = "<group>"; };
+		652C61274734A72512658043FB10B5F4 /* MIFabOptionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MIFabOptionCell.xib; path = MIFab/OptionsVC/Cell/MIFabOptionCell.xib; sourceTree = "<group>"; };
+		6DB24A7CA41CEC3ECECA587E120BB82E /* Pods-MIFabDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MIFabDemo-umbrella.h"; sourceTree = "<group>"; };
+		71B1F79D4F3750269D0A2C3DF07B8321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822DBB9B77A7C288FD8265CF19B52D18 /* MIFab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIFab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89358158E8D4C4667127E49CB9C96FDF /* Pods-MIFabDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MIFabDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0F50607D67229825CA9F2BC6A84369 /* MIFab-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIFab-umbrella.h"; sourceTree = "<group>"; };
+		9134205373E5157F352E83042EC5326B /* MIFabButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MIFabButton.xib; path = MIFab/Button/MIFabButton.xib; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956E264700355003EC795F3396E6F472 /* Pods-MIFabDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MIFabDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95E43F046F9F5098EE70381EB47D6D06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A903B1E1B6583F7C8EBD770AF1B8E5 /* Pods_MIFabDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIFabDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A477443B2149070D177CAAE1254C34E6 /* Pods-MIFabDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MIFabDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A827AADB8C9845B78AB25A60C28421AE /* MIFab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIFab.swift; path = MIFab/MIFab.swift; sourceTree = "<group>"; };
+		AF493D11002A63FFD4DCD2116320A0FF /* Pods-MIFabDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MIFabDemo.modulemap"; sourceTree = "<group>"; };
+		B2CFC490808B3985098A0FB4C9989F76 /* MIFabOptionsVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MIFabOptionsVC.xib; path = MIFab/OptionsVC/MIFabOptionsVC.xib; sourceTree = "<group>"; };
+		BE0338579E11D5DE405D41FF34969DE1 /* MIFabOptionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIFabOptionCell.swift; path = MIFab/OptionsVC/Cell/MIFabOptionCell.swift; sourceTree = "<group>"; };
+		C1B568423C498A4AB892570A0816F851 /* Pods-MIFabDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MIFabDemo-resources.sh"; sourceTree = "<group>"; };
+		C33E50F229DD14B2CE0A1432BF9AC9BF /* Pods-MIFabDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MIFabDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA4F04466B4DF0526C31476E7EFBF9CF /* MIFab-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIFab-prefix.pch"; sourceTree = "<group>"; };
+		E8256CC7BC270B3EDFCA585B66B962A0 /* MIFabOptionsVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIFabOptionsVC.swift; path = MIFab/OptionsVC/MIFabOptionsVC.swift; sourceTree = "<group>"; };
+		F5203E519737DCFC1A83EE7CA4AE7378 /* Pods-MIFabDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MIFabDemo-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05694B76D11356B3D1507828521BBB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53E9F0064BADC39BF534342B4BA831C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE85526076F2EC0C93AF79DEA9972598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74798136C84B538D9D924434EA17FCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BD45DB224028EFE50E94B397E4E1B8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA01BFBBB6983C7E3521F8F2F03AF654 /* MIFab */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4BD45DB224028EFE50E94B397E4E1B8B /* Pods */,
+				C4D1AA7EA0FDAEB9916A095B7B6C5BC9 /* Products */,
+				BF5B502AF570266AB12D6662DD54AE2A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA01BFBBB6983C7E3521F8F2F03AF654 /* MIFab */ = {
+			isa = PBXGroup;
+			children = (
+				A827AADB8C9845B78AB25A60C28421AE /* MIFab.swift */,
+				5D429713F416CFB4134162E9FA38D657 /* MIFabButton.swift */,
+				9134205373E5157F352E83042EC5326B /* MIFabButton.xib */,
+				BE0338579E11D5DE405D41FF34969DE1 /* MIFabOptionCell.swift */,
+				652C61274734A72512658043FB10B5F4 /* MIFabOptionCell.xib */,
+				E8256CC7BC270B3EDFCA585B66B962A0 /* MIFabOptionsVC.swift */,
+				B2CFC490808B3985098A0FB4C9989F76 /* MIFabOptionsVC.xib */,
+				DC66C7D36CEB056FFDD7B4280CBE846A /* Support Files */,
+			);
+			path = MIFab;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5B502AF570266AB12D6662DD54AE2A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5565D7DB22004175644113DF8DD7A /* Pods-MIFabDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4D1AA7EA0FDAEB9916A095B7B6C5BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822DBB9B77A7C288FD8265CF19B52D18 /* MIFab.framework */,
+				99A903B1E1B6583F7C8EBD770AF1B8E5 /* Pods_MIFabDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC66C7D36CEB056FFDD7B4280CBE846A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B1F79D4F3750269D0A2C3DF07B8321 /* Info.plist */,
+				253CB2893BA2EF71E361F478639B45F8 /* MIFab.modulemap */,
+				43913CBE4E06245DE1B3AC701AE216A5 /* MIFab.xcconfig */,
+				5DF6A4C80FF1C4697A6DE2DF2E5F0922 /* MIFab-dummy.m */,
+				DA4F04466B4DF0526C31476E7EFBF9CF /* MIFab-prefix.pch */,
+				8F0F50607D67229825CA9F2BC6A84369 /* MIFab-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MIFab";
+			sourceTree = "<group>";
+		};
+		EEE5565D7DB22004175644113DF8DD7A /* Pods-MIFabDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95E43F046F9F5098EE70381EB47D6D06 /* Info.plist */,
+				AF493D11002A63FFD4DCD2116320A0FF /* Pods-MIFabDemo.modulemap */,
+				956E264700355003EC795F3396E6F472 /* Pods-MIFabDemo-acknowledgements.markdown */,
+				C33E50F229DD14B2CE0A1432BF9AC9BF /* Pods-MIFabDemo-acknowledgements.plist */,
+				26A62C07ED1E320FF8D44A14A9B19B02 /* Pods-MIFabDemo-dummy.m */,
+				F5203E519737DCFC1A83EE7CA4AE7378 /* Pods-MIFabDemo-frameworks.sh */,
+				C1B568423C498A4AB892570A0816F851 /* Pods-MIFabDemo-resources.sh */,
+				6DB24A7CA41CEC3ECECA587E120BB82E /* Pods-MIFabDemo-umbrella.h */,
+				89358158E8D4C4667127E49CB9C96FDF /* Pods-MIFabDemo.debug.xcconfig */,
+				A477443B2149070D177CAAE1254C34E6 /* Pods-MIFabDemo.release.xcconfig */,
+			);
+			name = "Pods-MIFabDemo";
+			path = "Target Support Files/Pods-MIFabDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CE5964E134802EFC1020844FDC1E2B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EF45B01BDC91DC2AE629DDE7D64BD6 /* MIFab-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79369C9F9AFF19DFFCE2BD946E95C351 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7864528B8B5FB5C653C2D8434296FF69 /* Pods-MIFabDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A97D6068095C44FAE8EE7D3219A0F1FD /* MIFab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2D222E3D74DE8A93BA39A888444A57 /* Build configuration list for PBXNativeTarget "MIFab" */;
+			buildPhases = (
+				977C2F43C34CDCC30365A9709B59411E /* Sources */,
+				05694B76D11356B3D1507828521BBB8C /* Frameworks */,
+				0CE5964E134802EFC1020844FDC1E2B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIFab;
+			productName = MIFab;
+			productReference = 822DBB9B77A7C288FD8265CF19B52D18 /* MIFab.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2152B6B109240A82DFAD7B51A7F0D5E /* Pods-MIFabDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061FA37AF344CAD6A8592286C648AFA0 /* Build configuration list for PBXNativeTarget "Pods-MIFabDemo" */;
+			buildPhases = (
+				2B3E74D2D81A53C90DE1F71F9C9B587C /* Sources */,
+				EE85526076F2EC0C93AF79DEA9972598 /* Frameworks */,
+				79369C9F9AFF19DFFCE2BD946E95C351 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1D925034677E6761092F1E13E123806 /* PBXTargetDependency */,
+			);
+			name = "Pods-MIFabDemo";
+			productName = "Pods-MIFabDemo";
+			productReference = 99A903B1E1B6583F7C8EBD770AF1B8E5 /* Pods_MIFabDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C4D1AA7EA0FDAEB9916A095B7B6C5BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97D6068095C44FAE8EE7D3219A0F1FD /* MIFab */,
+				B2152B6B109240A82DFAD7B51A7F0D5E /* Pods-MIFabDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3E74D2D81A53C90DE1F71F9C9B587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08022761F8153F4D01A60B020CDFB1 /* Pods-MIFabDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977C2F43C34CDCC30365A9709B59411E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D77CCB65D8BF60A37FC580A99B5DFC7 /* MIFab-dummy.m in Sources */,
+				C10C8CBB34CCF5D0C616D29CA91EF4EB /* MIFab.swift in Sources */,
+				DA672C6E8F8DE7BFF6918BE7B8FE7E3B /* MIFabButton.swift in Sources */,
+				5109EAD132B6B024825B506E954B93E5 /* MIFabButton.xib in Sources */,
+				EFCEDC2974C801D924839D083263AF6D /* MIFabOptionCell.swift in Sources */,
+				ECC539FC70C393DB54380D44DE4681FA /* MIFabOptionCell.xib in Sources */,
+				0B1B55E8B04B6AEDB447CBB14BB8A5E8 /* MIFabOptionsVC.swift in Sources */,
+				888ABA8480505065F6F559568DE54E4D /* MIFabOptionsVC.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1D925034677E6761092F1E13E123806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MIFab;
+			target = A97D6068095C44FAE8EE7D3219A0F1FD /* MIFab */;
+			targetProxy = 7BFD70D1F40261FA7CC2BA811A180847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		468B07EB1B812FC79E0E2A0E8C974E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89358158E8D4C4667127E49CB9C96FDF /* Pods-MIFabDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MIFabDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MIFabDemo/Pods-MIFabDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MIFabDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1A3FEF75B17BF498E35C3B842D06B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A477443B2149070D177CAAE1254C34E6 /* Pods-MIFabDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MIFabDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MIFabDemo/Pods-MIFabDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MIFabDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB7B23B4DDB37A15898BAD0A15EF9BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43913CBE4E06245DE1B3AC701AE216A5 /* MIFab.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MIFab/MIFab-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MIFab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MIFab/MIFab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MIFab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E93E7FB46170876C191B65B75A247139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43913CBE4E06245DE1B3AC701AE216A5 /* MIFab.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MIFab/MIFab-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MIFab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MIFab/MIFab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MIFab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061FA37AF344CAD6A8592286C648AFA0 /* Build configuration list for PBXNativeTarget "Pods-MIFabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468B07EB1B812FC79E0E2A0E8C974E8A /* Debug */,
+				A1A3FEF75B17BF498E35C3B842D06B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2D222E3D74DE8A93BA39A888444A57 /* Build configuration list for PBXNativeTarget "MIFab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7B23B4DDB37A15898BAD0A15EF9BC9 /* Debug */,
+				E93E7FB46170876C191B65B75A247139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
