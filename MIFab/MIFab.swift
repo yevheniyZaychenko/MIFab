@@ -8,19 +8,19 @@
 
 import UIKit
 
-struct MIFabOption {
+public struct MIFabOption {
     
-    typealias MIFabOption = (Void) -> Void
+    public typealias MIFabOption = (Void) -> Void
     
-    var title: String?
-    var image: UIImage?
+    public var title: String?
+    public var image: UIImage?
     
-    var actionClosure: MIFabOption?
+    public var actionClosure: MIFabOption?
     
-    var backgroundColor: UIColor?
-    var tintColor: UIColor?
+    public var backgroundColor: UIColor?
+    public var tintColor: UIColor?
     
-    init(title: String? = nil, image: UIImage? = nil, backgroundColor: UIColor? = nil, tintColor: UIColor? = nil, actionClosure: @escaping MIFabOption) {
+    public init(title: String? = nil, image: UIImage? = nil, backgroundColor: UIColor? = nil, tintColor: UIColor? = nil, actionClosure: @escaping MIFabOption) {
         
         self.title = title
         self.image = image
@@ -34,41 +34,45 @@ struct MIFabOption {
     
 }
 
-class MIFab {
+public class MIFab {
     
-    struct Config {
+    public struct Config {
         
-        var width: CGFloat = 230
+        public var width: CGFloat = 230
         
-        var overlayLayerColor = UIColor(white: 0, alpha: 0.6)
+        public var overlayLayerColor = UIColor(white: 0, alpha: 0.6)
         
-        var buttonPadding = CGSize(width: 30, height: 40)
-        var buttonSize: CGFloat = 75
+        public var buttonPadding = CGSize(width: 30, height: 40)
+        public var buttonSize: CGFloat = 75
         
-        var buttonImage: UIImage?
-        var buttonBackgroundColor = UIColor.orange
-        var buttonTintColor = UIColor.white
+        public var buttonImage: UIImage?
+        public var buttonBackgroundColor = UIColor.orange
+        public var buttonTintColor = UIColor.white
         
-        var buttonShadowColor = UIColor(white: 0, alpha: 0.2)
-        var buttonShadowRadius: CGFloat = 3
-        var buttonShadowOffset = CGSize(width: 3, height: 3)
+        public var buttonShadowColor = UIColor(white: 0, alpha: 0.2)
+        public var buttonShadowRadius: CGFloat = 3
+        public var buttonShadowOffset = CGSize(width: 3, height: 3)
         
-        var spaceBetweenButtonAndOptions: CGFloat = 15
+        public var spaceBetweenButtonAndOptions: CGFloat = 15
         
-        var optionHeight: CGFloat = 70
+        public var optionHeight: CGFloat = 70
         
-        var optionIconSize: CGFloat = 60
-        var optionIconShadowColor = UIColor(white: 0, alpha: 0.2)
-        var optionIconShadowRadius: CGFloat = 3
-        var optionIconShadowOffset = CGSize(width: 3, height: 3)
+        public var optionIconSize: CGFloat = 60
+        public var optionIconShadowColor = UIColor(white: 0, alpha: 0.2)
+        public var optionIconShadowRadius: CGFloat = 3
+        public var optionIconShadowOffset = CGSize(width: 3, height: 3)
         
-        var optionLabelShadowColor = UIColor(white: 0, alpha: 0.1)
-        var optionLabelShadowRadius: CGFloat = 2
-        var optionLabelShadowOffset = CGSize(width: 3, height: 3)
+        public var optionLabelShadowColor = UIColor(white: 0, alpha: 0.1)
+        public var optionLabelShadowRadius: CGFloat = 2
+        public var optionLabelShadowOffset = CGSize(width: 3, height: 3)
         
-        var optionLabelPadding = CGSize(width: 12, height: 8)
+        public var optionLabelPadding = CGSize(width: 12, height: 8)
         
-        var optionsAnimationDuration: TimeInterval = 0.3
+        public var optionsAnimationDuration: TimeInterval = 0.3
+        
+        public init() {
+            
+        }
         
     }
     
@@ -81,7 +85,7 @@ class MIFab {
     var config: Config!
     var fabOptions: [MIFabOption]?
     
-    init(parentVC: UIViewController, config: Config, options: [MIFabOption]?) {
+    public init(parentVC: UIViewController, config: Config, options: [MIFabOption]?) {
         
         self.parentVC = parentVC
         self.config = config

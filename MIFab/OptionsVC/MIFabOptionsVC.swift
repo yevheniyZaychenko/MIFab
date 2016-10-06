@@ -32,7 +32,7 @@ class MIFabOptionsVC: UIViewController {
     
     static func get(manager: MIFab) -> MIFabOptionsVC {
         
-        let fabOptionVC = MIFabOptionsVC(nibName: "MIFabOptionsVC", bundle: nil)
+        let fabOptionVC = MIFabOptionsVC(nibName: "MIFabOptionsVC", bundle: Bundle(for: MIFabOptionsVC.self))
         
         fabOptionVC.view.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         
