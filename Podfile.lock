@@ -1,12 +1,12 @@
 PODS:
-  - MIAlertController (1.1)
+  - MIFab (1.0)
 
 DEPENDENCIES:
-  - MIAlertController (~> 1.1)
+  - MIFab (~> 1.0)
 
 SPEC CHECKSUMS:
-  MIAlertController: 15047b7ea4e403904b3c36ac08bbe20687a63c5a
+  MIFab: 750e5b463489e6b51b3cc2dec2c7e975487bbb60
 
-PODFILE CHECKSUM: c79fba69a3d01d1c2d3891ddbcd9efdbaf2287ea
+PODFILE CHECKSUM: cef8a8964868e999335d0136227bd8e664d9fdab
 
 COCOAPODS: 1.1.0.rc.2

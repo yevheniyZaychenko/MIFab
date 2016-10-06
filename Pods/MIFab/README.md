@@ -1,15 +1,10 @@
 # MIFab
 A simple fully customizable floating action button with options
 
-[![Platform](http://img.shields.io/badge/platform-ios-red.svg?style=flat
-)](https://developer.apple.com/iphone/index.action)
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/) 
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/MIFab.svg)](https://img.shields.io/cocoapods/v/RSKCollectionViewRetractableFirstItemLayout.svg) 
-
 <img src="demo.gif" height="500"/>
 
 # Setup
-- Add ```pod 'MIAlertController', '~> 1.1'``` to your Podfile or copy the "MIFab" folder to your project.
+- Copy the "MIFab" folder to your project.
 - Create a new instance with a couple of lines of code
 ```
   var fabConfig = MIFab.Config()
