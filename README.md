@@ -9,7 +9,7 @@ A simple fully customizable floating action button with options
 <img src="demo.gif" height="500"/>
 
 # Setup
-- Add ```pod 'MIAlertController', '~> 1.1'``` to your Podfile or copy the "MIFab" folder to your project.
+- Add ```pod 'MIFab', '~> 1.1'``` to your Podfile or copy the "MIFab" folder to your project.
 - Create a new instance with a couple of lines of code
 ```
   var fabConfig = MIFab.Config()
