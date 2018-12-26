@@ -2,11 +2,20 @@ PODS:
   - MIFab (1.0)
 
 DEPENDENCIES:
-  - MIFab (~> 1.0)
+  - MIFab (from `https://github.com/yevheniyZaychenko/MIFab.git`)
+
+EXTERNAL SOURCES:
+  MIFab:
+    :git: https://github.com/yevheniyZaychenko/MIFab.git
+
+CHECKOUT OPTIONS:
+  MIFab:
+    :commit: eed18902350c4e1394ce8caa778d69086b0e6c6b
+    :git: https://github.com/yevheniyZaychenko/MIFab.git
 
 SPEC CHECKSUMS:
   MIFab: 750e5b463489e6b51b3cc2dec2c7e975487bbb60
 
-PODFILE CHECKSUM: cef8a8964868e999335d0136227bd8e664d9fdab
+PODFILE CHECKSUM: 8aae9e4f1bf63746185c18c805995c1e1a8f96fb
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.5.3

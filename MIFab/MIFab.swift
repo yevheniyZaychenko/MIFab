@@ -10,7 +10,7 @@ import UIKit
 
 public struct MIFabOption {
     
-    public typealias MIFabOption = (Void) -> Void
+    public typealias MIFabOption = () -> Void
     
     public var title: String?
     public var image: UIImage?
@@ -195,7 +195,7 @@ public class MIFab {
         
         fabButton.alpha = 0
         
-        fabButton.button.setImage(config.buttonImage, for: UIControlState())
+        fabButton.button.setImage(config.buttonImage, for: UIControl.State())
         
         fabButton.button.backgroundColor = config.buttonBackgroundColor
         fabButton.button.tintColor = config.buttonTintColor
